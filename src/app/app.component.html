@@ -1,0 +1,24 @@
+<div class="container-fluid">
+  <mat-toolbar>
+    <span>Foodies</span>
+    <span class="example-spacer"></span>
+    <mat-icon aria-hidden="false" aria-label="Example home icon" fontIcon="home"></mat-icon>
+    <a mat-button routerLink="home">Home</a>
+    <mat-icon>menus</mat-icon>
+    <a mat-button routerLink="menu">Menu</a>
+    <mat-icon>login</mat-icon>
+    <a mat-button routerLink="login">Login</a>
+    <mat-icon><i class="bi bi-file-earmark-person"></i></mat-icon>
+    <a mat-button routerLink="about">About</a>
+    <mat-icon>contacts</mat-icon>
+    <a mat-button routerLink="contactus">Contactus</a>
+    <button mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
+      <mat-icon>favorite</mat-icon>
+    </button>
+    <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
+      <mat-icon>share</mat-icon>
+    </button>
+  </mat-toolbar>
+</div>
+<router-outlet></router-outlet>
+<app-footer></app-footer>
